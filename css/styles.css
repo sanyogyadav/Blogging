@@ -66,6 +66,34 @@
   }
 }
 
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+#blog_title {
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+#form {
+  border-style: solid;
+  padding: 20px;
+  border-color: black;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
