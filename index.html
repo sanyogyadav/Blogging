@@ -45,7 +45,7 @@
                             <h3 style="text-align: center;">Create a Blog</h3>
                             Title : <input type="text" id="blog_title" placeholder="Enter blog title" autofocus/><br/><br/>
                             Article : <textarea id="blog_article" name="review" rows="4" cols="50" placeholder="Enter some description"></textarea><br/><br/>
-                            Add Image : <input type="file" id="file-upload"/><br/><br/>
+                            <!-- Add Image : <input type="file" id="file-upload"/><br/><br/> -->
                             <input type="submit" class="btn btn-success" value="Blog" onclick="handleSubmit()"><br/><br/>
                         </form>
                     </div>
@@ -53,12 +53,12 @@
                 <div class="col-lg-8">
                     <!-- Featured blog post-->
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                        <a href="#!"><img class="card-img-top" src="https://media.istockphoto.com/photos/3d-text-of-java-picture-id870344898?s=612x612" alt="Java" /></a>
                         <div class="card-body">
-                            <div class="small text-muted">January 1, 2022</div>
-                            <h2 class="card-title">Featured Post Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                            <a class="btn btn-primary" href="#!">Read more →</a>
+                            <div class="small text-muted">May 23, 1995</div>
+                            <h2 class="card-title">Java</h2>
+                            <p class="card-text">Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages.</p>
+                            <a class="btn btn-primary" href="https://www.google.com/search?q=Java&rlz=1C1GCEO_enIN946IN946&sxsrf=ALiCzsZvY1mbvtchoyOO0H4WVR6g95eJ4w%3A1666338241182&ei=wU1SY7TjCpGe8QOF0orgDQ&ved=0ahUKEwj0x8PX6fD6AhURT3wKHQWpAtwQ4dUDCA8&uact=5&oq=Java&gs_lcp=Cgdnd3Mtd2l6EAMyBwgjELADECcyBwgjELADECcyBwgjELADECcyCggAEEcQ1gQQsAMyCggAEEcQ1gQQsAMyCggAEEcQ1gQQsAMyCggAEEcQ1gQQsAMyCggAEEcQ1gQQsAMyCggAEEcQ1gQQsAMyCggAEEcQ1gQQsAMyCggAEEcQ1gQQsAMyBwgAELADEEMyDQgAEOQCENYEELADGAEyDQgAEOQCENYEELADGAEyDQgAEOQCENYEELADGAEyDQgAEOQCENYEELADGAEyDQgAEOQCENYEELADGAFKBAhNGAFKBAhBGABKBAhGGAFQAFgAYPMkaAFwAHgAgAEAiAEAkgEAmAEAyAERwAEB2gEGCAEQARgJ&sclient=gws-wiz">Read more →</a>
                         </div>
                     </div>
                     <!-- Nested row for non-featured blog posts-->
@@ -66,44 +66,44 @@
                         <div class="col-lg-6">
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="https://media.istockphoto.com/photos/javascript-inscription-against-laptop-and-code-background-learn-picture-id1284271878" alt="JavaScript" /></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 1, 2022</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                    <div class="small text-muted">1995</div>
+                                    <h2 class="card-title h4">JavaScript</h2>
+                                    <p class="card-text">JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well.</p>
+                                    <a class="btn btn-primary" href="https://www.google.com/search?q=Javascript&rlz=1C1GCEO_enIN946IN946&sxsrf=ALiCzsZ2rPqoCe1AFgErYASRii4fsXDO2g%3A1666339061809&ei=9VBSY9yCMZLxz7sP_tKyKA&ved=0ahUKEwic0ere7PD6AhWS-HMBHX6pDAUQ4dUDCA8&uact=5&oq=Javascript&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAgjECcyBwgAELEDEEMyCwgAEIAEELEDEIMBMggIABCABBCxAzILCAAQgAQQsQMQgwEyCAgAEIAEELEDMgcIABCxAxBDMgQIABBDOgcIIxCwAxAnOgoIABBHENYEELADOgcIABCwAxBDOg0IABDkAhDWBBCwAxgBOhIILhDHARDRAxDIAxCwAxBDGAI6BwgjELECECc6DQgAEIAEELEDEIMBEAo6CggAEIAEELEDEApKBAhNGAFKBAhBGABKBAhGGAFQtAJYxgxgzxtoAXABeACAAX6IAfgBkgEDMC4ymAEAoAEByAERwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz">Read more →</a>
                                 </div>
                             </div>
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="https://media.istockphoto.com/photos/stylized-3d-html-file-illustration-design-picture-id1413515664?s=612x612" alt="Html" /></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 1, 2022</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                    <div class="small text-muted">1993</div>
+                                    <h2 class="card-title h4">HTML</h2>
+                                    <p class="card-text">HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables</p>
+                                    <a class="btn btn-primary" href="https://www.google.com/search?q=html&rlz=1C1GCEO_enIN946IN946&oq=html&aqs=chrome.0.69i59j35i39j69i59j0i67i433j69i65j69i60j69i65j69i60.1829j0j7&sourceid=chrome&ie=UTF-8">Read more →</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="https://media.istockphoto.com/photos/woman-steps-to-a-laptop-and-bootstrap-word-on-asphalt-road-picture-id1406211344?s=612x612" alt="BootStrap" /></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 1, 2022</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                    <div class="small text-muted">August 19, 2011</div>
+                                    <h2 class="card-title h4">BOOTSTRAP</h2>
+                                    <p class="card-text">Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.</p>
+                                    <a class="btn btn-primary" href="https://www.google.com/search?q=Bootstrap&rlz=1C1GCEO_enIN946IN946&sxsrf=ALiCzsb0u-odVG1Sd5ksRrCvd_Pld0N1LA%3A1666339643182&ei=O1NSY_vdCsnTz7sPnd-ZyAo&ved=0ahUKEwi754b07vD6AhXJ6XMBHZ1vBqkQ4dUDCA8&uact=5&oq=Bootstrap&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAgjECcyCggAELEDEIMBEEMyCggAELEDEIMBEEMyBwgAELEDEEMyCggAELEDEIMBEEMyCggAELEDEIMBEEMyBwgAELEDEEMyCggAELEDEIMBEEM6BwgjELADECc6CggAEEcQ1gQQsAM6BwgAELADEEM6DQgAEOQCENYEELADGAE6EgguEMcBENEDEMgDELADEEMYAjoHCCMQsQIQJzoNCAAQsQMQgwEQsQMQQ0oECE0YAUoECEEYAEoECEYYAVDvBVitEGC8FGgBcAF4AIAB0QGIAZwDkgEDMi0ymAEAoAEByAERwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz">Read more →</a>
                                 </div>
                             </div>
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="https://media.istockphoto.com/photos/pixelated-nodejs-picture-id518624412" alt="NodeJs" /></a>
                                 <div class="card-body">
-                                    <div class="small text-muted">January 1, 2022</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam.</p>
-                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                    <div class="small text-muted">May 27, 2009</div>
+                                    <h2 class="card-title h4">NodeJs</h2>
+                                    <p class="card-text">Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications. It is used for server-side programming, and primarily deployed for non-blocking, event-driven servers, such as traditional web sites and back-end API services, but was originally designed with real-time, push-based architectures in mind.</p>
+                                    <a class="btn btn-primary" href="https://www.google.com/search?q=nodejs&rlz=1C1GCEO_enIN946IN946&oq=Nodejs&aqs=chrome.0.35i39j0i433i512j0i67l2j0i512j0i433i512j69i60l2.2316j1j7&sourceid=chrome&ie=UTF-8">Read more →</a>
                                 </div>
                             </div>
                         </div>
